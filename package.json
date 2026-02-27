@@ -2,10 +2,10 @@
   "name": "content-factory",
   "version": "1.0.0",
   "description": "Telegram bot + web dashboard for TikTok content production pipeline",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node --watch src/index.js"
+    "start": "node index.js",
+    "dev": "node --watch index.js"
   },
   "dependencies": {
     "telegraf": "^4.16.3",
@@ -13,6 +13,7 @@
     "express": "^4.21.0",
     "better-sqlite3": "^11.3.0",
     "csv-parse": "^5.5.6",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^1.4.5-lts.1",
+    "dotenv": "^16.4.5"
   }
 }
