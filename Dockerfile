@@ -17,4 +17,4 @@ ENV DB_PATH=/app/data/factory.db
 
 EXPOSE 3000
 
-CMD ["node", "src/index.js"]
+CMD ["node", "index.js"]
